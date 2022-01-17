@@ -6,9 +6,6 @@ source .env
 
 echo "$HEROKU_TEST_APP_NAME" | heroku pg:reset --app $HEROKU_TEST_APP_NAME
 
-git push heroku_test main
-git push heroku_prod main
+git push heroku_test master
 
 heroku ps:restart --app $HEROKU_TEST_APP_NAME
-heroku ps:restart --app $HEROKU_PROD_APP_NAME
-
