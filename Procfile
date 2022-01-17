@@ -1,1 +1,1 @@
-web: /bin/start-nginx ./runserver
+web: bin/start-nginx ./runserver
