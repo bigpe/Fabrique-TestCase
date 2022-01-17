@@ -1,0 +1,6 @@
+#!/bin/bash
+
+ln -s backend/requirements.txt .
+
+git add requirements.txt
+git commit -m "Fix: Requirements"
