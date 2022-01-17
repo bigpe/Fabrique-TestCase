@@ -134,9 +134,7 @@ INSTALLED_APPS.insert(0, 'grappelli')
 INSTALLED_APPS += [
     'drf_yasg',
     'rest_framework',
-    'django_filters',
     'nested_admin',
-    'adminsortable2',
 ]
 
 API_V1_APPS = [
