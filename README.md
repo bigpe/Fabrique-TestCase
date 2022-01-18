@@ -22,6 +22,6 @@ https://fabrique-test-case.herokuapp.com/api/v1/
 https://fabrique-test-case.herokuapp.com/api/admin/
 ```
 
-Вся документация методов API находится в doc string нужных 
+Вся документация методов API находится в doc string нужных методов
 
 Опросы можно создать только через панель администратора, API такой функционал не предусматривает
